@@ -1,0 +1,47 @@
+.add-discount-modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-discount-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-discount-modal input[type="text"],
+.add-discount-modal input[type="number"],
+.add-discount-modal input[type="date"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.add-discount-modal button {
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-discount-modal button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.add-discount-modal button:last-of-type {
+    background-color: #f44336;
+    color: white;
+}

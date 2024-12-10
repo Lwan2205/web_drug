@@ -1,0 +1,14 @@
+/* .App {
+  text-align: center;
+} */
+
+/* Thêm khoảng cách giữa header và slider nếu cần */
+.App header {
+  margin-bottom: 20px;
+}
+
+/* Tùy chỉnh chiều rộng của slider nếu muốn */
+.slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

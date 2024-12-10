@@ -1,0 +1,72 @@
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userTable th,
+.userTable td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.userTable th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.userTable td {
+    font-size: 14px;
+    color: #333;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gap-2 {
+    gap: 8px;
+}
+
+.bg-green-100,
+.bg-red-100 {
+    padding: 4px 8px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bg-green-100:hover {
+    background-color: #38a169;
+    color: #fff;
+}
+
+.bg-red-100:hover {
+    background-color: #e53e3e;
+    color: #fff;
+}
+
+.remove-user_button  {
+    padding: 5px;
+    cursor: pointer;
+    color: #9c9292;
+}
+.remove-user_button:hover {
+    color: red;
+}
+
+.edit-user_button  {
+    padding: 5px;
+    cursor: pointer;
+    color: #2167dd;
+}

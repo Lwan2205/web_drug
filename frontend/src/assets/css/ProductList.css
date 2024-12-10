@@ -1,0 +1,165 @@
+.product-list-container {
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.buy-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.related-products {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.related-products h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.related-products-list {
+    display: flex;
+    justify-content: space-between;
+    /* Điều chỉnh khoảng cách giữa các sản phẩm */
+    flex-wrap: nowrap;
+    /* Đảm bảo các sản phẩm không xuống dòng */
+    gap: 20px;
+    /* Khoảng cách giữa các sản phẩm */
+}
+
+.related-product {
+    width: 23%;
+    /* Đảm bảo mỗi sản phẩm chiếm 1/4 chiều rộng của container */
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-height: 380px;
+    /* Giới hạn chiều cao của mỗi sản phẩm */
+}
+
+.related-product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.related-product img {
+    width: 100%;
+    /* Chiều rộng của ảnh chiếm 100% của phần tử chứa */
+    height: 200px;
+    /* Cố định chiều cao ảnh */
+    object-fit: cover;
+    /* Đảm bảo ảnh không bị vỡ hoặc méo */
+    border-radius: 8px;
+}
+
+.related-product h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    text-overflow: ellipsis;
+    /* Cắt bớt nếu tên sản phẩm quá dài */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #ff5722;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.view-details-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+    background-color: #0056b3;
+}

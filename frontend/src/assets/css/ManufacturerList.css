@@ -1,0 +1,75 @@
+.manufacturer-list {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.manufacturer-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.manufacturer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.manufacturer-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.manufacturer-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.manufacturer-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.manufacturer-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.manufacturer-card button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.manufacturer-card button:hover {
+    background-color: #0056b3;
+}
+
+.add-manufacturer-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-manufacturer-button:hover {
+    background-color: #218838;
+}

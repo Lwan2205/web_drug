@@ -1,0 +1,62 @@
+.add-manufacturer-modal,
+.update-manufacturer-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.add-manufacturer-modal h2,
+.update-manufacturer-modal h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.add-manufacturer-modal input,
+.update-manufacturer-modal input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-manufacturer-modal input[type="file"],
+.update-manufacturer-modal input[type="file"] {
+    padding: 5px;
+}
+
+.add-manufacturer-modal button,
+.update-manufacturer-modal button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.add-manufacturer-modal button:hover,
+.update-manufacturer-modal button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.add-manufacturer-modal .cancel-button,
+.update-manufacturer-modal .cancel-button {
+    background-color: #dc3545;
+}
+
+.add-manufacturer-modal .save-button,
+.update-manufacturer-modal .save-button {
+    background-color: #007bff;
+}

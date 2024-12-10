@@ -1,0 +1,25 @@
+.order-status-update {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.order-status-update select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.order-status-update button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-status-update button:hover {
+    background-color: #218838;
+}

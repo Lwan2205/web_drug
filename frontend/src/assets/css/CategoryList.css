@@ -1,0 +1,53 @@
+.category-list {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.category-list h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.category-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.category-card button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.category-card button:first-of-type {
+    background-color: #008CBA;
+    /* Edit button */
+}
+
+.category-card button:last-of-type {
+    background-color: #f44336;
+    /* Delete button */
+}

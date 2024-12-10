@@ -1,0 +1,83 @@
+/* Đặt chiều cao tối thiểu cho phần Admin Panel */
+.admin-panel {
+    min-height: calc(100vh - 120px);
+    display: flex;
+}
+
+.admin-panel-hidden {
+    display: none;
+}
+
+.admin-aside {
+    background-color: white;
+    min-height: 100%;
+    width: 100%;
+    max-width: 15rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Phong cách cho phần thông tin người dùng */
+.admin-user-info {
+    margin-top: 20px;
+}
+
+.user-avatar {
+    font-size: 3rem;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.user-avatar img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 9999px; /* ????? */
+}
+
+.user-name {
+    text-transform: capitalize;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* Phần điều hướng */
+.admin-nav {
+    display: grid;
+    padding: 1rem;
+}
+.admin-nav_li {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition:  0.5s;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-nav_li:hover {
+    background-color: #f1f5f9;
+    transform: scale(1.05);
+}
+
+.admin-nav a {
+    padding: 0.25rem 0.5rem;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.admin-nav a:hover {
+    background-color: #f1f5f9;
+}
+
+/* Main Content */
+.admin-main {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
